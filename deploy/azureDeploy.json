@@ -264,7 +264,6 @@
             "location": "[parameters('functionLocation')]",
             "kind": "functionapp,linux",
             "name": "[variables('functionAppName')]",
-            "location": "[parameters('functionLocation')]",
             "tags": "[if(contains(parameters('tagsByResource'), 'Microsoft.Web/sites'), parameters('tagsByResource')['Microsoft.Web/sites'], json('{}'))]",
             "dependsOn": [
                 "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName'))]"
