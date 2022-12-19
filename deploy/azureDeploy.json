@@ -40,7 +40,7 @@
         },
         "functionLocation": {
             "type": "string",
-            "defaultValue": "[parameters('functionLocation')]",
+            "defaultValue": "[resourceGroup().location]",
             "metadata": {
                 "description": "functionLocation for all resources."
             }
