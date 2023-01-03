@@ -825,7 +825,7 @@
             "appName": "[steps('basics').appName]",
             "storageAccountType": "[steps('basics').storageAccountType]",
             "storageAccountTLS": "[steps('basics').storageAccountTLS]",
-            "functionLocation": "[steps('basics').functionLocation]",
+            "location": "[steps('basics').functionLocation]",
             "linuxFxVersion": "[steps('basics).linuxFxVersion]",
 
             "eventHubConnectionString": "[steps('appSettings').ehPolicyKeyApi.primaryConnectionString]",
